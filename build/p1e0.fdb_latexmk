@@ -1,8 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1726352973.88048 "c:/Users/A/Desktop/Uandes/8vo_semestre/MCOC/p1e0/p1e0.tex" "build/p1e0.pdf" "p1e0" 1726352976.7089 0
-  "At_caso1.png" 1726352605 28306 3948508dc1a468bec460f8a01f4ff0ae ""
-  "At_caso2.png" 1726352646 31324 f758cb9ef96eb7686df101ee05fb924d ""
-  "At_caso3.png" 1726352670 31510 a97517c8b7c8fdda9e887547b9dc6200 ""
+["pdflatex"] 1726354803.86014 "c:/Users/A/Desktop/Uandes/8vo_semestre/MCOC/Proyecto-1-MCOC/p1e0.tex" "build/p1e0.pdf" "p1e0" 1726354806.2503 0
   "C:/Users/A/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1726351554 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/A/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1710856774 24221282 a5876e0c9e755de8e44ee96826d1c75a ""
   "C:/Users/A/Desktop/Programar/miketex/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -157,12 +154,15 @@
   "C:/Users/A/Desktop/Programar/miketex/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/A/Desktop/Programar/miketex/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "Logo principal.jpg" 1623677582 22210 c3e58ef23db133d47d994f1fd2bfc85c ""
-  "build/p1e0.aux" 1726352976 1239 42ebeb798c4d72b6e37d289790a0c1ff "pdflatex"
-  "build/p1e0.out" 1726352976 445 a0c93a8d03f10b9e496b65f2614da35d "pdflatex"
-  "build/p1e0.toc" 1726352976 303 2e0477bb34f32edcd109a662db97279a "pdflatex"
-  "c:/Users/A/Desktop/Uandes/8vo_semestre/MCOC/p1e0/p1e0.tex" 1726352972 8066 c65ac88def4f5a0e4dbfe95175458b8c ""
+  "build/p1e0.aux" 1726354805 1443 e1ea30b186339b2b847d1571b16a62e7 "pdflatex"
+  "build/p1e0.out" 1726354805 445 a0c93a8d03f10b9e496b65f2614da35d "pdflatex"
+  "build/p1e0.toc" 1726354805 303 2e0477bb34f32edcd109a662db97279a "pdflatex"
+  "c:/Users/A/Desktop/Uandes/8vo_semestre/MCOC/Proyecto-1-MCOC/p1e0.tex" 1726354796 8508 37f4b83c7462916d0654b81abbaf0396 ""
+  "graficos/At_caso1.png" 1726352605 28306 3948508dc1a468bec460f8a01f4ff0ae ""
+  "graficos/At_caso2.png" 1726352646 31324 f758cb9ef96eb7686df101ee05fb924d ""
+  "graficos/At_caso3.png" 1726352670 31510 a97517c8b7c8fdda9e887547b9dc6200 ""
   "logo principal.jpg" 1623677582 22210 c3e58ef23db133d47d994f1fd2bfc85c ""
-  "p1e0.tex" 1726352972 8066 c65ac88def4f5a0e4dbfe95175458b8c ""
+  "p1e0.tex" 1726354796 8508 37f4b83c7462916d0654b81abbaf0396 ""
   (generated)
   "build/p1e0.aux"
   "build/p1e0.log"

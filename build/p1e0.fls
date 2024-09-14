@@ -1,7 +1,7 @@
-PWD c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0
+PWD c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC
 INPUT C:\Users\A\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\p1e0.tex
-OUTPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\build\p1e0.log
+INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\p1e0.tex
+OUTPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.log
 INPUT C:\Users\A\Desktop\Programar\miketex\tex\latex\base\article.cls
 INPUT C:\Users\A\Desktop\Programar\miketex\tex\latex\base\article.cls
 INPUT C:\Users\A\Desktop\Programar\miketex\tex\latex\base\size10.clo
@@ -292,10 +292,10 @@ INPUT C:\Users\A\Desktop\Programar\miketex\tex\latex\listings\lstlang3.sty
 INPUT C:\Users\A\Desktop\Programar\miketex\tex\latex\listings\lstmisc.sty
 INPUT C:\Users\A\Desktop\Programar\miketex\tex\latex\listings\lstmisc.sty
 INPUT C:\Users\A\Desktop\Programar\miketex\tex\latex\listings\lstmisc.sty
-INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\build\p1e0.aux
-INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\build\p1e0.aux
-INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\build\p1e0.aux
-OUTPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\build\p1e0.aux
+INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.aux
+INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.aux
+INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.aux
+OUTPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.aux
 INPUT C:\Users\A\Desktop\Programar\miketex\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\A\Desktop\Programar\miketex\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\A\Desktop\Programar\miketex\tex\context\base\mkii\supp-pdf.mkii
@@ -304,14 +304,14 @@ INPUT C:\Users\A\Desktop\Programar\miketex\tex\latex\epstopdf-pkg\epstopdf-base.
 INPUT C:\Users\A\Desktop\Programar\miketex\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\A\Desktop\Programar\miketex\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\A\Desktop\Programar\miketex\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\build\p1e0.out
-INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\build\p1e0.out
-INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\build\p1e0.out
-INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\build\p1e0.out
-OUTPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\build\p1e0.pdf
-INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\build\p1e0.out
-INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\build\p1e0.out
-OUTPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\build\p1e0.out
+INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.out
+INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.out
+INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.out
+INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.out
+OUTPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.pdf
+INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.out
+INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.out
+OUTPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.out
 INPUT .\Logo principal.jpg
 INPUT .\Logo principal.jpg
 INPUT .\Logo principal.jpg
@@ -327,12 +327,12 @@ INPUT C:\Users\A\Desktop\Programar\miketex\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\A\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\A\Desktop\Programar\miketex\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\A\Desktop\Programar\miketex\fonts\tfm\public\cm\cmbx12.tfm
-INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\build\p1e0.toc
-INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\build\p1e0.toc
-INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\build\p1e0.toc
+INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.toc
+INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.toc
+INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.toc
 INPUT C:\Users\A\Desktop\Programar\miketex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\A\Desktop\Programar\miketex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-OUTPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\build\p1e0.toc
+OUTPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.toc
 INPUT .\logo principal.jpg
 INPUT .\logo principal.jpg
 INPUT .\logo principal.jpg
@@ -344,34 +344,34 @@ INPUT .\logo principal.jpg
 INPUT .\logo principal.jpg
 INPUT .\logo principal.jpg
 INPUT .\logo principal.jpg
-INPUT .\At_caso1.png
-INPUT .\At_caso1.png
-INPUT .\At_caso1.png
-INPUT .\At_caso1.png
-INPUT .\At_caso1.png
-INPUT .\At_caso1.png
-INPUT .\At_caso1.png
-INPUT .\At_caso2.png
-INPUT .\At_caso2.png
-INPUT .\At_caso2.png
-INPUT .\At_caso2.png
-INPUT .\At_caso2.png
-INPUT .\At_caso2.png
-INPUT .\At_caso2.png
-INPUT .\At_caso3.png
-INPUT .\At_caso3.png
-INPUT .\At_caso3.png
-INPUT .\At_caso3.png
-INPUT .\At_caso3.png
-INPUT .\At_caso3.png
-INPUT .\At_caso3.png
+INPUT .\graficos\At_caso1.png
+INPUT .\graficos\At_caso1.png
+INPUT .\graficos\At_caso1.png
+INPUT .\graficos\At_caso1.png
+INPUT .\graficos\At_caso1.png
+INPUT .\graficos\At_caso1.png
+INPUT .\graficos\At_caso1.png
+INPUT .\graficos\At_caso2.png
+INPUT .\graficos\At_caso2.png
+INPUT .\graficos\At_caso2.png
+INPUT .\graficos\At_caso2.png
+INPUT .\graficos\At_caso2.png
+INPUT .\graficos\At_caso2.png
+INPUT .\graficos\At_caso2.png
+INPUT .\graficos\At_caso3.png
+INPUT .\graficos\At_caso3.png
+INPUT .\graficos\At_caso3.png
+INPUT .\graficos\At_caso3.png
+INPUT .\graficos\At_caso3.png
+INPUT .\graficos\At_caso3.png
+INPUT .\graficos\At_caso3.png
 INPUT .\logo principal.jpg
 INPUT .\logo principal.jpg
 INPUT .\logo principal.jpg
 INPUT .\logo principal.jpg
-INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\build\p1e0.aux
-INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\build\p1e0.out
-INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\build\p1e0.out
+INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.aux
+INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.out
+INPUT c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.out
 INPUT C:\Users\A\Desktop\Programar\miketex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\A\Desktop\Programar\miketex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\A\Desktop\Programar\miketex\fonts\type1\public\amsfonts\cm\cmbx12.pfb

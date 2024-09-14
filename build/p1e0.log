@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.19)  14 SEP 2024 19:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.19)  14 SEP 2024 20:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/A/Desktop/Uandes/8vo_semestre/MCOC/p1e0/p1e0.tex
-(c:/Users/A/Desktop/Uandes/8vo_semestre/MCOC/p1e0/p1e0.tex
+**c:/Users/A/Desktop/Uandes/8vo_semestre/MCOC/Proyecto-1-MCOC/p1e0.tex
+(c:/Users/A/Desktop/Uandes/8vo_semestre/MCOC/Proyecto-1-MCOC/p1e0.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 (C:\Users\A\Desktop\Programar\miketex\tex/latex/base\article.cls
@@ -621,7 +621,7 @@ File: lstlang2.sty 2023/02/27 1.9 listings language file
 File: lstlang3.sty 2023/02/27 1.9 listings language file
 ) (C:\Users\A\Desktop\Programar\miketex\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-) (c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\build\p1e0.aux
+) (c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
@@ -702,7 +702,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 LaTeX Info: Redefining \. on input line 89.
 LaTeX Info: Redefining \% on input line 89.
 Package hyperref Info: Link coloring ON on input line 89.
- (c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\build\p1e0.out) (c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\build\p1e0.out)
+ (c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.out) (c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.out)
 \@outlinefile=\write4
 \openout4 = `p1e0.out'.
 
@@ -717,7 +717,7 @@ Package pdftex.def Info: Logo principal.jpg  used on input line 99.
 (pdftex.def)             Requested size: 284.52756pt x 113.26816pt.
 [1
 
-{C:/Users/A/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Logo principal.jpg>] (c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\build\p1e0.toc
+{C:/Users/A/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Logo principal.jpg>] (c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
@@ -742,41 +742,41 @@ Package pdftex.def Info: logo principal.jpg  used on input line 141.
  [2
 
 ]
-<At_caso1.png, id=43, 326.4195pt x 352.9185pt>
-File: At_caso1.png Graphic file (type png)
-<use At_caso1.png>
-Package pdftex.def Info: At_caso1.png  used on input line 151.
+<graficos/At_caso1.png, id=43, 326.4195pt x 352.9185pt>
+File: graficos/At_caso1.png Graphic file (type png)
+<use graficos/At_caso1.png>
+Package pdftex.def Info: graficos/At_caso1.png  used on input line 151.
 (pdftex.def)             Requested size: 141.94835pt x 153.47522pt.
-<At_caso2.png, id=45, 320.99925pt x 348.1005pt>
-File: At_caso2.png Graphic file (type png)
-<use At_caso2.png>
-Package pdftex.def Info: At_caso2.png  used on input line 157.
+<graficos/At_caso2.png, id=45, 320.99925pt x 348.1005pt>
+File: graficos/At_caso2.png Graphic file (type png)
+<use graficos/At_caso2.png>
+Package pdftex.def Info: graficos/At_caso2.png  used on input line 158.
 (pdftex.def)             Requested size: 141.94835pt x 153.93486pt.
-<At_caso3.png, id=46, 320.99925pt x 348.1005pt>
-File: At_caso3.png Graphic file (type png)
-<use At_caso3.png>
-Package pdftex.def Info: At_caso3.png  used on input line 163.
+<graficos/At_caso3.png, id=46, 320.99925pt x 348.1005pt>
+File: graficos/At_caso3.png Graphic file (type png)
+<use graficos/At_caso3.png>
+Package pdftex.def Info: graficos/At_caso3.png  used on input line 165.
 (pdftex.def)             Requested size: 141.94835pt x 153.93486pt.
 File: logo principal.jpg Graphic file (type jpg)
 <use logo principal.jpg>
-Package pdftex.def Info: logo principal.jpg  used on input line 169.
+Package pdftex.def Info: logo principal.jpg  used on input line 173.
 (pdftex.def)             Requested size: 110.8946pt x 44.14194pt.
  [3
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.169 \end{document}
+l.173 \end{document}
                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.169 \end{document}
+l.173 \end{document}
                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.169 \end{document}
-                     <./At_caso1.png> <./At_caso2.png> <./At_caso3.png>] (c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\build\p1e0.aux
+l.173 \end{document}
+                     <./graficos/At_caso1.png> <./graficos/At_caso2.png> <./graficos/At_caso3.png>] (c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
@@ -788,17 +788,17 @@ Package rerunfilecheck Info: File `p1e0.out' has not changed.
 (rerunfilecheck)             Checksum: A0C93A8D03F10B9E496B65F2614DA35D;445.
  ) 
 Here is how much of TeX's memory you used:
- 24707 strings out of 474486
- 452737 string characters out of 5747519
+ 24711 strings out of 474486
+ 453163 string characters out of 5747519
  1930542 words of memory out of 5000000
- 46561 multiletter control sequences out of 15000+600000
+ 46565 multiletter control sequences out of 15000+600000
  560647 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,16n,93p,1182b,538s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,16n,93p,1193b,538s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\p1e0\build\p1e0.pdf (4 pages, 168007 bytes).
+Output written on c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.pdf (4 pages, 169436 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
+ 78 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
  70 words of extra memory for PDF output out of 10000 (max. 10000000)
 
