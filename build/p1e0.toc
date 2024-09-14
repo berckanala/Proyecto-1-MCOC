@@ -1,0 +1,5 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {part}{I\hspace {1em}Entrega 0}{2}{part.1}%
+\contentsline {section}{\numberline {1}Introducción}{2}{section.1}%
+\contentsline {section}{\numberline {2}Resultados}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Redes de flujo}{3}{subsection.2.1}%
