@@ -147,6 +147,9 @@ Por ello, en esta entrega se presentarán esquemas de redes de flujo, caudales d
   \label{fig:enunciado}
 \end{figure}
 
+Cabe mencionar que todos los cálculos se realizaron se encuentran en el archivo Excel del siguiente enlace: \href{https://github.com/berckanala/Proyecto-1-MCOC/tree/main/Codigos_calculos}{Cálculos}
+
+
 \newpage
 
 \section{Resultados}
@@ -277,53 +280,212 @@ A continuación, se presentan las presiones de poros para cada caso:
     \hline
   \end{tabular}
   \caption{Presiones de poros en el caso 1}
+  \label{tab:presion1}
 \end{table}
 
 
 \begin{table}[h!]
   \centering
-  \begin{tabular}{cccccc}
-  \hline
-  \textbf{Punto} & \textbf{Altura geodésica (m)} & \textbf{$n_i$} & \textbf{$H_i$} & \textbf{Presión de poros (kPa)} \\
-  \hline
-  A & 22,4 & 22,4 & - & - & 0  \\ 
-  B & 18,6 & 18,6 & 0 & 22,4 & 37,278  \\ 
-  C & 15,6 & 15,6 & 1 & 21,04 & 53,3664  \\ 
-  D & 12,6 & 12,6 & 2 & 19,68 & 69,4548  \\ 
-  E & 10,2 & 10,2 & 3 & 18,32 & 79,6572  \\ 
-  F & 10,2 & 10,2 & 4 & 16,96 & 66,3156  \\ 
-  G & 12,6 & 12,6 & 5 & 15,6 & 29,43  \\ 
-  H & 15,6 & 15,6 & - & - & 0  \\ \hline
-  \end{tabular}
-  \caption{Presiones de poros en el caso 2}
-  \end{table}
-  
-  \begin{table}[h!]
-    \centering
-    \begin{tabular}{|cccccc}
+    \begin{tabular}{cccccc}
     \hline
-    \textbf{Punto} & \textbf{Altura geodésica (m)} & \textbf{$n_i$} & \textbf{$H_i$} & \textbf{Presión de poros (kPa)} \\ \hline
-    A & 22,4 & 22,4 & - & - & 0 \\ 
-    B & 18,6 & 18,6 & 0 & 22,4 & 37,278 \\ 
-    C & 17 & 17 & 1 & 21,32 & 42,3792 \\ 
-    D & 16 & 16 & 2 & 20,24 & 41,5944 \\ 
-    E & 10,2 & 10,2 & 3 & 19,16 & 87,8976 \\ 
-    F & 10,2 & 10,2 & 4 & 18,08 & 77,3028 \\ 
-    G & 16 & 16 & 5 & 17 & 9,81 \\ 
-    H & 17 & 17 & - & - & 0 \\ \hline
+    \textbf{Punto} & \textbf{Altura geodésica (m)} & \textbf{$n_i$} & \textbf{$H_i$} & \textbf{Presión de poros (kPa)} \\
+    \hline
+    A &  22,4 & - & - & 0  \\ 
+    B &  18,6 & 0 & 22,4 & 37,278  \\ 
+    C &  15,6 & 1 & 21,04 & 53,3664  \\ 
+    D &  12,6 & 2 & 19,68 & 69,4548  \\ 
+    E &  10,2 & 3 & 18,32 & 79,6572  \\ 
+    F &  10,2 & 4 & 16,96 & 66,3156  \\ 
+    G &  12,6 & 5 & 15,6 & 29,43  \\ 
+    H &  15,6 & - & - & 0  \\ \hline
     \end{tabular}
+  \caption{Presiones de poros en el caso 2}
+  \label{tab:presion2}
+\end{table}
+  
+\begin{table}[h!]
+    \centering
+      \begin{tabular}{cccccc}
+      \hline
+      \textbf{Punto} & \textbf{Altura geodésica (m)} & \textbf{$n_i$} & \textbf{$H_i$} & \textbf{Presión de poros (kPa)} \\ \hline
+      A &  22,4 & - & - & 0 \\ 
+      B &  18,6 & 0 & 22,4 & 37,278 \\ 
+      C & 17 & 1 & 21,32 & 42,3792 \\ 
+      D & 16 & 2 & 20,24 & 41,5944 \\ 
+      E &  10,2 & 3 & 19,16 & 87,8976 \\ 
+      F &  10,2 & 4 & 18,08 & 77,3028 \\ 
+      G & 16 & 5 & 17 & 9,81 \\ 
+      H & 17 & - & - & 0 \\ \hline
+      \end{tabular}
     \caption{Presiones de poros en el caso 3}
-    \end{table}
+    \label{tab:presion3}
+\end{table}
     
+Lo que es importante ver es la diferencia de presion de poros entre los puntos A y G, ya que, dependiendo esta diferencia la inflitración influye en el caudal de inflitración. Como se puede observar, el la tabla \ref{tab:presion1} la presión en G es de 29.43 kPa, mientras que en la tabla \ref{tab:presion2} es de 29.43 kPa y en la tabla \ref{tab:presion3} es de 9.81 kPa. Esto se debe a que en el caso 1 y 2 la altura del agua es la misma y en el caso 3 la tablaestaca está más enterrada, lo que disminuye la presión de poros en el punto G.
+
+\newpage
+
+\subsection{Presiones netas en la ataguía}
+Para calcular las presiones netas en la ataguía, se restan las presiones que están en la misma altura, quedando la siguiente tabla:
+
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{cc}
+    \hline
+    \textbf{Caso} & \textbf{Presión neta en la ataguía (kPa)} \\
+    \hline
+    A & 0 \\
+    B & 37.278 \\
+    C & 72.2 \\
+    D-E & 54.15\\
+    F-G & 18.05 \\
+    \hline  
+  \end{tabular}
+  \caption{Presiones netas en la ataguía caso 1}
+  \label{tab:presion_neta1}
+\end{table}
+
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{cc}
+    \hline
+    \textbf{Caso} & \textbf{Presión neta en la ataguía (kPa)} \\
+    \hline
+    A & 0 \\
+    B & 37.278 \\
+    C & 53.36 \\
+    D-E & 40.02\\
+    F-G & 13.34 \\
+    \hline  
+  \end{tabular}
+  \caption{Presiones netas en la ataguía caso 2}
+  \label{tab:presion_neta2}
+\end{table}
+
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{cc}
+    \hline
+    \textbf{Caso} & \textbf{Presión neta en la ataguía (kPa)} \\
+    \hline
+    A & 0 \\
+    B & 37.278 \\
+    C & 42.38 \\
+    D-E & 31.78\\
+    F-G & 10.59 \\
+    \hline  
+  \end{tabular}
+  \caption{Presiones netas en la ataguía caso 3}
+  \label{tab:presion_neta3}
+\end{table}
+
+Con las presiones netas se puede ver como la presión neta disminuye de forma significativa a medida que la tablaestaca se entierra más. Esto hace que la tablaestaca sea más estable y no se desplace por la presión del agua. Además, se puede observar que el punto crítico en términos de presión es el punto C es el más crítico, ya que ahí es donde empieza el agua a ejercer presión por dentro en la tablaestaca.
 
 
+\subsection{Máximo gradiente hidráulico}
+
+Para calcular el máximo gradiente hidráulico, se utilizó la siguiente fórmula:
+
+\begin{equation}
+  i_{max} = \frac{\Delta H}{L_{min}}
+\end{equation}
+
+Donde:
+\begin{itemize}
+    \item $i_{max}$: Máximo gradiente hidráulico 
+    \item $\Delta H$: Diferencia de altura entre dos líneas equipotenciales (m)
+    \item $L_{min}$: Distancia mínima entre dos líneas de flujo (m)
+\end{itemize}
 
 
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{cc}
+    \hline
+    \textbf{Caso} & \textbf{Máximo gradiente hidráulico} \\
+    \hline
+    1 & 1.095 \\
+    2 & 0.63 \\
+    3 & 0.38 \\
+    \hline
+  \end{tabular}
+  \caption{Máximo gradiente hidráulico}
+  \label{tab:gradiente}
+\end{table}
 
+Como se puede observar en la tabla \ref{tab:gradiente}, el máximo gradiente hidráulico disminuye a medida que la tablaestaca se entierra más. Esto se debe a que la distancia entre las líneas de flujo aumenta junto con que la diferencia de altura del agua va disminuyendo, lo que hace que el gradiente hidráulico sea menor. 
 
+\subsection{Falla por licuefacción}
 
+Para determinar si la tablaestaca falla por licuefacción, se calculó el gradiente hidráulico crítico con la siguiente fórmula:
 
+\begin{equation}
+  i_{crit} = \frac{\gamma_{sat}-\gamma_w}{\gamma_w} 
+\end{equation}
 
+Donde:
+\begin{itemize}
+    \item $i_{crit}$: Gradiente hidráulico crítico
+    \item $\gamma_{sat}$: Peso específico saturado del suelo (N/m$^3$)
+    \item $\gamma_w$: Peso específico del agua (N/m$^3$)  
+\end{itemize}
+Luego, si este valor, que es constante para todos los casos, es menor al gradiente hidráulico máximo de cada caso se puede afirmar que la tablaestaca falla por licuefacción. A continuación, se presenta una tabla con los resultados:
 
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{cccc}
+    \hline
+    \textbf{Caso} & \textbf{Máximo gradiente hidráulico}& \textbf{Gradiente hidráulico crítico} &\textbf{Falla por licuefacción} \\
+    \hline
+    1 &1.095 & 1.14 &No \\
+    2 &0.63  & 1.14 &No \\
+    3 &0.38  & 1.14 &No \\
+    \hline
+  \end{tabular}
+  \caption{Falla por licuefacción}
+  \label{tab:licuefaccion}
+\end{table}
+
+Como se puede apreciar, el caso más cercano a la falla es el caso 1, esto es debido a que la tablaestaca no está enterrada, lo que hace que el gradiente hidráulico sea mayor. Sin embargo, en todos los casos el gradiente hidráulico crítico es mayor al máximo, por lo que no hay falla por licuefacción. Estos resultados demuestran que a mayor profundidad de la tablaestaca, menor es el riesgo de falla por licuefacción.
+
+\newpage
+\subsection{Factor de seguridad}
+Para poder calcular el factor de seguridad, se utilizó la siguiente fórmula:
+
+\begin{equation}
+  FS = \frac{i_{crit}}{i_{max}}
+\end{equation}
+
+Donde:
+\begin{itemize}
+    \item $FS$: Factor de seguridad
+\end{itemize}
+
+A continuación, se presenta una tabla con los resultados:
+
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{cc}
+    \hline
+    \textbf{Caso} & \textbf{Factor de seguridad} \\
+    \hline
+    1 &1.04 \\
+    2 &1.81 \\
+    3 &3.00 \\
+    \hline
+  \end{tabular}
+  \caption{Factor de seguridad}
+  \label{tab:seguridad}
+\end{table}
+
+Tal como se dijo anteriormente, a medida que la tablaestaca esta más enterrada la ataguía es más segura. Ocupando las cotas que se pueden apreciar en las figuras (\ref{fig:At_caso1}, \ref{fig:At_caso2} y \ref{fig:At_caso3}) el pasar de 0 metros de profundidad a 5.8 metros de profundidad, el factor de seguridad aumenta de 1.04 a 3.00. Esto demuestra la importancia de enterrar la tablaestaca a una profundidad adecuada para evitar fallas en la ataguía. 
+
+\newpage
+
+\section{Conclusiones}
+
+En conclusión, se puede decir que la ataguía de tablaestaca es una estructura que permite construir de forma segura y eficiente en condiciones de humedad. Sin embargo, es necesario prestar atención a la profundidad a la que esta se va a enterrar, ya que esto influye en la presión de poros, el gradiente hidráulico y el factor de seguridad. En este sentido, se puede concluir que a mayor profundidad de la tablaestaca, menor es el riesgo de falla por licuefacción y mayor es el factor de seguridad. Por lo tanto, es importante realizar los cálculos necesarios para determinar la profundidad adecuada de la tablaestaca y así evitar posibles accidentes en la obra.\\
+
+Finalmente, se concluye que el caso 1 es el más inestable de los tres, ya que la tablaestaca no está enterrada, mientras el caso 3 es el más estable, ya que la tablaestaca está enterrada a una profundidad de 5.8 metros. La diferencia entre estos dos casos se pudo notar en todos los cálculos realizados, por ejemplo, en el caso 1 tiene mayor caudal de infiltración, mayor presión neta en la tablaestaca, mayor gradiente hidráulico máximo y un tercio del factor de seguridad del caso 3.
 
 \end{document}

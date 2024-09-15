@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1726439158.65474 "c:/Users/A/Desktop/Uandes/8vo_semestre/MCOC/Proyecto-1-MCOC/p1e0.tex" "build/p1e0.pdf" "p1e0" 1726439160.54661 0
+["pdflatex"] 1726443552.52096 "c:/Users/A/Desktop/Uandes/8vo_semestre/MCOC/Proyecto-1-MCOC/p1e0.tex" "build/p1e0.pdf" "p1e0" 1726443555.10713 0
   "C:/Users/A/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1726351554 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/A/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1710856774 24221282 a5876e0c9e755de8e44ee96826d1c75a ""
   "C:/Users/A/Desktop/Programar/miketex/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -158,16 +158,16 @@
   "C:/Users/A/Desktop/Programar/miketex/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/A/Desktop/Programar/miketex/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "Logo principal.jpg" 1623677582 22210 c3e58ef23db133d47d994f1fd2bfc85c ""
-  "build/p1e0.aux" 1726439160 2569 67ac4f735f7869d5527da359617c3602 "pdflatex"
-  "build/p1e0.out" 1726439160 777 b686f6909b2de1f0afdc83548113acdb "pdflatex"
-  "build/p1e0.toc" 1726439160 477 c1dffff39c63c13e0b9d25bab17ddf9a "pdflatex"
-  "c:/Users/A/Desktop/Uandes/8vo_semestre/MCOC/Proyecto-1-MCOC/p1e0.tex" 1726439158 13487 ca031134144093e0cf37e7769939cc84 ""
+  "build/p1e0.aux" 1726443554 4893 960a9271356a80c211b2c2e3fac26499 "pdflatex"
+  "build/p1e0.out" 1726443554 1643 1d7465a1a03b69b4a656c00d1bb78fa7 "pdflatex"
+  "build/p1e0.toc" 1726443554 910 5afe0c7253fd03274c1b68cdcb96a049 "pdflatex"
+  "c:/Users/A/Desktop/Uandes/8vo_semestre/MCOC/Proyecto-1-MCOC/p1e0.tex" 1726443551 21551 7eebb8527f6516c4a8b477e564ca2f06 ""
   "graficos/At_caso1.png" 1726433954 25292 fddb2193d808deb9e161f412f545ffcf ""
   "graficos/At_caso2.png" 1726434005 29009 51edf0ab59fffcd95ba220f14ad1b60b ""
   "graficos/At_caso3.png" 1726433985 28981 f7a18a531274c660c0030ceef58856e8 ""
   "graficos/puntos_interes.png" 1726432263 45110 a2dcc5c155c0094836281d912b0aa6c4 ""
   "logo principal.jpg" 1623677582 22210 c3e58ef23db133d47d994f1fd2bfc85c ""
-  "p1e0.tex" 1726439158 13487 ca031134144093e0cf37e7769939cc84 ""
+  "p1e0.tex" 1726443551 21551 7eebb8527f6516c4a8b477e564ca2f06 ""
   (generated)
   "build/p1e0.aux"
   "build/p1e0.log"
