@@ -340,10 +340,18 @@ INPUT .\logo principal.jpg
 INPUT .\logo principal.jpg
 INPUT .\logo principal.jpg
 INPUT .\logo principal.jpg
+INPUT .\graficos\puntos_interes.png
+INPUT .\graficos\puntos_interes.png
+INPUT .\graficos\puntos_interes.png
+INPUT .\graficos\puntos_interes.png
+INPUT .\graficos\puntos_interes.png
+INPUT .\graficos\puntos_interes.png
+INPUT .\graficos\puntos_interes.png
 INPUT .\logo principal.jpg
 INPUT .\logo principal.jpg
 INPUT .\logo principal.jpg
 INPUT .\logo principal.jpg
+INPUT C:\Users\A\Desktop\Programar\miketex\fonts\tfm\public\cm\cmtt10.tfm
 INPUT .\graficos\At_caso1.png
 INPUT .\graficos\At_caso1.png
 INPUT .\graficos\At_caso1.png
@@ -378,3 +386,5 @@ INPUT C:\Users\A\Desktop\Programar\miketex\fonts\type1\public\amsfonts\cm\cmbx12
 INPUT C:\Users\A\Desktop\Programar\miketex\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\A\Desktop\Programar\miketex\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\A\Desktop\Programar\miketex\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\A\Desktop\Programar\miketex\fonts\type1\public\amsfonts\cm\cmtt10.pfb
+INPUT C:\Users\A\Desktop\Programar\miketex\fonts\type1\public\amsfonts\cm\cmtt10.pfb
