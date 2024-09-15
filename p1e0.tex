@@ -151,7 +151,7 @@ Por ello, en esta entrega se presentarán esquemas de redes de flujo, caudales d
 
 \section{Resultados}
 \subsection{Redes de flujo}
-A continuación, se muestran los esquemas de las redes de flujo de las 3 ataguías. Los esquemas a escala se pueden encontrar en el siguiente link: \url{https://github.com/berckanala/Proyecto-1-MCOC/tree/main/redes_flujo}
+A continuación, se muestran los esquemas de las redes de flujo de las 3 ataguías. Los esquemas a escala se pueden encontrar en el siguiente link: \href{https://github.com/berckanala/Proyecto-1-MCOC/tree/main/redes_flujo}{Esquemas ataguías}.
 
 \begin{figure}[h]
     \centering
@@ -177,12 +177,153 @@ A continuación, se muestran los esquemas de las redes de flujo de las 3 ataguí
     \end{minipage}
 \end{figure}
 
-Como se puede apreciar en la figura \ref{fig}, la tablaestaca no está enterrada, mientras que en la figura \ref{fig} la tablaestaca está enterrada a una profundidad de 2.4 metros. Por último, en la figura \ref{fig}, la tablaestaca está enterrada a una profundidad de 5.8 metros.
+Como se puede apreciar en la figura \ref{fig:At_caso1}, la tablaestaca no está enterrada, mientras que en la figura \ref{fig:At_caso2} la tablaestaca está enterrada a una profundidad de 2.4 metros. Por último, en la figura \ref{fig:At_caso3}, la tablaestaca está enterrada a una profundidad de 5.8 metros.
 
-En cada esquema se utilizaron 3 líneas de flujo y 6 líneas equipotenciales. Con respecto a las líneas equipotenciales, es importante mencionar que en el caso 1 hay 5 líneas equipotenciales, ya que se unen puntos de interés (E con D y F con G).
+En cada esquema se utilizaron 3 líneas de flujo y 6 líneas equipotenciales. Esto corresponde a lo siguiente:
+
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{|c|c|}
+    \hline
+    Número de canales de flujo ($N_f$)& 4 \\ \hline
+    Número de canales equipotenciales ($N_d$) & 5 \\ \hline
+  \end{tabular}
+  \caption{Número de canales de flujo y equipotenciales}
+\end{table}
+
 \subsection{Caudales de infiltración}
+Para poder calcular los caudales de infiltración, se ocupó la ley de Darcy, la cual se expresa de la siguiente forma:
+
+\begin{equation}
+    q = k \cdot \Delta H \cdot \frac{N_f}{N_d} \cdot 86400
+\end{equation}
+
+Donde:
+\begin{itemize}
+    \item $q$: Caudal de infiltración (m/s)
+    \item $k$: Coeficiente de permeabilidad
+    \item $\Delta H$: Diferencia de altura entre dos líneas equipotenciales (m)
+\end{itemize}
+
+\newpage
+
+Los caudales de infiltración para cada caso se presentan en la siguiente tabla:
+
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{ccc}
+    \hline
+    \textbf{Caso} &\textbf{$\Delta H$ (m)}  &\textbf{Caudal de infiltración ($m^3/dia$)} \\
+    \hline
+    1 &9.2 &43.87 \\
+    2 & 6.8&32.43\\
+    3 &5.4 &25.75\\
+    \hline
+  \end{tabular}
+  \caption{Caudales de infiltración}
+  \label{tab:caudales}
+\end{table}
+
+Como se puede apreciar en la tabla \ref{tab:caudales}, el caudal de infiltración disminuye a medida que la tablaestaca se entierra más y la diferencia de altura va disminyendo. Sin embrago, estos valores dan cuenta de la importancia de calcular el caudal de infiltración para la correcta utilización de bombas. Ya que, si no se calcula correctamente, se podría inundar la obra con la maquinaria y trabajadores dentro.
+
+\subsection{Presión de poros}
+Para calcular la presión de poros, se utilizó el siguiente procedimiento:
+
+Lo primero es fijar una una cota de referencia, esta se puso en la base inferior del esquema, para poder tener la energía geodésica de cada punto, a este valor lo denominaremos ($z_g$). Luego, a cada punto se le asigna un ($n_i$) este valor representa en que línea equipontecial se encuentra el punto. Cabe mencionar que el punto A y H no cuentan con una línea equipontencial. Posteriormente, se calcula la energía total en cada punto con la siguiente fórmula:
+
+\begin{equation}
+  H_i = H_0 - \frac{\Delta H}{n_p} \cdot n_i
+\end{equation}
+
+Donde:
+\begin{itemize}
+    \item $H_i$: Energía total en el punto i (m)
+    \item $H_0$: Energía total en la cota de referencia (m)
+    \item $\Delta H$: Diferencia de altura entre dos líneas equipotenciales (m)
+    \item $n_p$: Número de canales equipotenciales
+    \item $n_i$: Número de la línea equipotencial en la que se encuentra el punto i
+\end{itemize}
+
+Finalmente, se calcula la presión de poros con la siguiente fórmula:
+
+\begin{equation}
+  u_i =  (H_i - z_g)\cdot \frac{\gamma_w}{1000}
+\end{equation}
+
+Donde:
+\begin{itemize}
+    \item $u_i$: Presión de poros en el punto i (kPa)
+    \item $\gamma_w$: Peso específico del agua (N/m$^3$)
+\end{itemize}
+
+\newpage
+
+A continuación, se presentan las presiones de poros para cada caso:
+
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{ccccc}
+    \hline
+    \textbf{Punto} & \textbf{Altura geodésica (m)} & \textbf{$n_i$} & \textbf{$H_i$} & \textbf{Presión de poros (kPa)} \\
+    \hline
+    A & 22.4 & - & - &0 \\
+    B & 18.6 &  0 & 22.4 &37.278 \\
+    C & 13.2 & 1  & 10.56 &72.20 \\
+    D & 10.2&  2 & 18.72 &83.58 \\
+    E & 10.2 & 3  & 16.88 &65.53 \\
+    F & 10.2 & 4  & 15.04 & 47.48\\
+    G & 10.2 & 5  & 13.02 &29.43 \\
+    H & 13.2 & - & - &0 \\
+    \hline
+  \end{tabular}
+  \caption{Presiones de poros en el caso 1}
+\end{table}
+
+
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{cccccc}
+  \hline
+  \textbf{Punto} & \textbf{Altura geodésica (m)} & \textbf{$n_i$} & \textbf{$H_i$} & \textbf{Presión de poros (kPa)} \\
+  \hline
+  A & 22,4 & 22,4 & - & - & 0  \\ 
+  B & 18,6 & 18,6 & 0 & 22,4 & 37,278  \\ 
+  C & 15,6 & 15,6 & 1 & 21,04 & 53,3664  \\ 
+  D & 12,6 & 12,6 & 2 & 19,68 & 69,4548  \\ 
+  E & 10,2 & 10,2 & 3 & 18,32 & 79,6572  \\ 
+  F & 10,2 & 10,2 & 4 & 16,96 & 66,3156  \\ 
+  G & 12,6 & 12,6 & 5 & 15,6 & 29,43  \\ 
+  H & 15,6 & 15,6 & - & - & 0  \\ \hline
+  \end{tabular}
+  \caption{Presiones de poros en el caso 2}
+  \end{table}
+  
+  \begin{table}[h!]
+    \centering
+    \begin{tabular}{|cccccc}
+    \hline
+    \textbf{Punto} & \textbf{Altura geodésica (m)} & \textbf{$n_i$} & \textbf{$H_i$} & \textbf{Presión de poros (kPa)} \\ \hline
+    A & 22,4 & 22,4 & - & - & 0 \\ 
+    B & 18,6 & 18,6 & 0 & 22,4 & 37,278 \\ 
+    C & 17 & 17 & 1 & 21,32 & 42,3792 \\ 
+    D & 16 & 16 & 2 & 20,24 & 41,5944 \\ 
+    E & 10,2 & 10,2 & 3 & 19,16 & 87,8976 \\ 
+    F & 10,2 & 10,2 & 4 & 18,08 & 77,3028 \\ 
+    G & 16 & 16 & 5 & 17 & 9,81 \\ 
+    H & 17 & 17 & - & - & 0 \\ \hline
+    \end{tabular}
+    \caption{Presiones de poros en el caso 3}
+    \end{table}
+    
 
 
 
-\
+
+
+
+
+
+
+
+
 \end{document}

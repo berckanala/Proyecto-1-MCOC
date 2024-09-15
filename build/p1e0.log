@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.19)  15 SEP 2024 18:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.19)  15 SEP 2024 19:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -710,7 +710,7 @@ Package hyperref Info: Link coloring ON on input line 89.
 
 Couldn't patch \ttl@straight@ii
 Couldn't patch \ttl@straight@ii
-<Logo principal.jpg, id=26, 842.14626pt x 335.2525pt>
+<Logo principal.jpg, id=30, 842.14626pt x 335.2525pt>
 File: Logo principal.jpg Graphic file (type jpg)
 <use Logo principal.jpg>
 Package pdftex.def Info: Logo principal.jpg  used on input line 99.
@@ -724,7 +724,7 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@toc=\write5
 \openout5 = `p1e0.toc'.
 
-<logo principal.jpg, id=40, 842.14626pt x 335.2525pt>
+<logo principal.jpg, id=45, 842.14626pt x 335.2525pt>
 File: logo principal.jpg Graphic file (type jpg)
 <use logo principal.jpg>
 Package pdftex.def Info: logo principal.jpg  used on input line 134.
@@ -739,7 +739,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
-<graficos/puntos_interes.png, id=44, 343.88475pt x 246.9225pt>
+<graficos/puntos_interes.png, id=49, 343.88475pt x 246.9225pt>
 File: graficos/puntos_interes.png Graphic file (type png)
 <use graficos/puntos_interes.png>
 Package pdftex.def Info: graficos/puntos_interes.png  used on input line 145.
@@ -756,77 +756,116 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has
                                                   \__shipout_drop_firstpage_...
 l.150 \newpage
                <./graficos/puntos_interes.png>]
-<graficos/At_caso1.png, id=53, 302.3295pt x 328.22626pt>
+<graficos/At_caso1.png, id=58, 302.3295pt x 328.22626pt>
 File: graficos/At_caso1.png Graphic file (type png)
 <use graficos/At_caso1.png>
 Package pdftex.def Info: graficos/At_caso1.png  used on input line 160.
 (pdftex.def)             Requested size: 141.94835pt x 154.1061pt.
-<graficos/At_caso2.png, id=54, 302.3295pt x 328.8285pt>
+<graficos/At_caso2.png, id=59, 302.3295pt x 328.8285pt>
 File: graficos/At_caso2.png Graphic file (type png)
 <use graficos/At_caso2.png>
 Package pdftex.def Info: graficos/At_caso2.png  used on input line 167.
 (pdftex.def)             Requested size: 141.94835pt x 154.38885pt.
-<graficos/At_caso3.png, id=55, 304.13625pt x 329.43076pt>
+<graficos/At_caso3.png, id=60, 304.13625pt x 329.43076pt>
 File: graficos/At_caso3.png Graphic file (type png)
 <use graficos/At_caso3.png>
 Package pdftex.def Info: graficos/At_caso3.png  used on input line 174.
 (pdftex.def)             Requested size: 141.94835pt x 153.75676pt.
-
-
-LaTeX Warning: Reference `fig' on page 3 undefined on input line 180.
-
-
-LaTeX Warning: Reference `fig' on page 3 undefined on input line 180.
-
-
-LaTeX Warning: Reference `fig' on page 3 undefined on input line 180.
-
 File: logo principal.jpg Graphic file (type jpg)
 <use logo principal.jpg>
-Package pdftex.def Info: logo principal.jpg  used on input line 188.
+Package pdftex.def Info: logo principal.jpg  used on input line 208.
 (pdftex.def)             Requested size: 110.8946pt x 44.14194pt.
-[3
+ [3
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.188 \end{document}
-                    
+l.208 \newpage
+              
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.188 \end{document}
-                    
+l.208 \newpage
+              
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.188 \end{document}
-                     <./graficos/At_caso1.png> <./graficos/At_caso2.png> <./graficos/At_caso3.png>] (c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.aux
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
-)
- ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-04>
- ***********
+l.208 \newpage
+              
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.208 \newpage
+               <./graficos/At_caso1.png> <./graficos/At_caso2.png> <./graficos/At_caso3.png>]
+File: logo principal.jpg Graphic file (type jpg)
+<use logo principal.jpg>
+Package pdftex.def Info: logo principal.jpg  used on input line 259.
+(pdftex.def)             Requested size: 110.8946pt x 44.14194pt.
+ [4
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.259 \newpage
+              ]
+c:/Users/A/Desktop/Uandes/8vo_semestre/MCOC/Proyecto-1-MCOC/p1e0.tex:285: Missing # inserted in alignment preamble.
+<to be read again> 
+                   \cr 
+l.285   \begin{tabular}|
+                        cccccc}
+There should be exactly one # between &'s, when an
+\halign or \valign is being set up. In this case you had
+none, so I've put one in; maybe that will work.
 
+c:/Users/A/Desktop/Uandes/8vo_semestre/MCOC/Proyecto-1-MCOC/p1e0.tex:285: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.285   \begin{tabular}|cccccc}
+                               
+I'm guessing that you meant to end an alignment here.
 
-LaTeX Warning: There were undefined references.
+c:/Users/A/Desktop/Uandes/8vo_semestre/MCOC/Proyecto-1-MCOC/p1e0.tex:286: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.286   \hline
+              
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
-Package rerunfilecheck Info: File `p1e0.out' has not changed.
-(rerunfilecheck)             Checksum: C0BAA07DFE58CCA6F05BF377210CD8AC;631.
- ) 
-Here is how much of TeX's memory you used:
- 24726 strings out of 474486
- 453488 string characters out of 5747519
- 1932542 words of memory out of 5000000
- 46577 multiletter control sequences out of 15000+600000
- 560815 words of font info for 46 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 84i,16n,93p,1193b,538s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.pdf (4 pages, 220812 bytes).
-PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+c:/Users/A/Desktop/Uandes/8vo_semestre/MCOC/Proyecto-1-MCOC/p1e0.tex:287: Misplaced alignment tab character &.
+l.287   \textbf{Punto} &
+                         \textbf{Altura geodésica (m)} & \textbf{$n_i$} & \...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
+c:/Users/A/Desktop/Uandes/8vo_semestre/MCOC/Proyecto-1-MCOC/p1e0.tex:287: Misplaced alignment tab character &.
+l.287 ...Punto} & \textbf{Altura geodésica (m)} &
+                                                   \textbf{$n_i$} & \textbf{...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/A/Desktop/Uandes/8vo_semestre/MCOC/Proyecto-1-MCOC/p1e0.tex:287: Misplaced alignment tab character &.
+l.287 ...Altura geodésica (m)} & \textbf{$n_i$} &
+                                                   \textbf{$H_i$} & \textbf{...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/A/Desktop/Uandes/8vo_semestre/MCOC/Proyecto-1-MCOC/p1e0.tex:287: Misplaced alignment tab character &.
+l.287 ... (m)} & \textbf{$n_i$} & \textbf{$H_i$} &
+                                                   \textbf{Presión de poros...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing
