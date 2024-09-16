@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1726445479.77018 "c:/Users/A/Desktop/Uandes/8vo_semestre/MCOC/Proyecto-1-MCOC/p1e0.tex" "build/p1e0.pdf" "p1e0" 1726445482.22349 0
+["pdflatex"] 1726450427.99572 "c:/Users/A/Desktop/Uandes/8vo_semestre/MCOC/Proyecto-1-MCOC/p1e0.tex" "build/p1e0.pdf" "p1e0" 1726450432.12813 0
   "C:/Users/A/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1726351554 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/A/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1710856774 24221282 a5876e0c9e755de8e44ee96826d1c75a ""
   "C:/Users/A/Desktop/Programar/miketex/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -158,10 +158,10 @@
   "C:/Users/A/Desktop/Programar/miketex/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/A/Desktop/Programar/miketex/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "Logo principal.jpg" 1623677582 22210 c3e58ef23db133d47d994f1fd2bfc85c ""
-  "build/p1e0.aux" 1726445481 5592 792b4303b9f49b8a5a4c1c4d1f9a4c21 "pdflatex"
-  "build/p1e0.out" 1726445481 1643 1d7465a1a03b69b4a656c00d1bb78fa7 "pdflatex"
-  "build/p1e0.toc" 1726445481 911 33e27a9894b335ab5ba94e6d5eab42cf "pdflatex"
-  "c:/Users/A/Desktop/Uandes/8vo_semestre/MCOC/Proyecto-1-MCOC/p1e0.tex" 1726445476 22339 95acb72a46a188cd531ae77d0b0a1b4e ""
+  "build/p1e0.aux" 1726450431 4731 d0a9eab788e0f9f1249d101213a55a54 "pdflatex"
+  "build/p1e0.out" 1726450431 1643 1d7465a1a03b69b4a656c00d1bb78fa7 "pdflatex"
+  "build/p1e0.toc" 1726450431 910 d925139944a647ce53485b707ffd99d9 "pdflatex"
+  "c:/Users/A/Desktop/Uandes/8vo_semestre/MCOC/Proyecto-1-MCOC/p1e0.tex" 1726450426 20456 e5a8a71c6a8d58fdcc201786bd947a7d ""
   "graficos/At_caso1.png" 1726433954 25292 fddb2193d808deb9e161f412f545ffcf ""
   "graficos/At_caso2.png" 1726434005 29009 51edf0ab59fffcd95ba220f14ad1b60b ""
   "graficos/At_caso3.png" 1726433985 28981 f7a18a531274c660c0030ceef58856e8 ""
@@ -170,7 +170,7 @@
   "graficos/grafico_presiones_3.png" 1726445091 32171 644f7b7ae3e95a76afb403ef4c7f3bc4 ""
   "graficos/puntos_interes.png" 1726432263 45110 a2dcc5c155c0094836281d912b0aa6c4 ""
   "logo principal.jpg" 1623677582 22210 c3e58ef23db133d47d994f1fd2bfc85c ""
-  "p1e0.tex" 1726445476 22339 95acb72a46a188cd531ae77d0b0a1b4e ""
+  "p1e0.tex" 1726450426 20456 e5a8a71c6a8d58fdcc201786bd947a7d ""
   (generated)
   "build/p1e0.aux"
   "build/p1e0.log"

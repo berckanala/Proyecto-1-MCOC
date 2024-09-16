@@ -147,12 +147,13 @@ Por ello, en esta entrega se presentarán esquemas de redes de flujo, caudales d
   \label{fig:enunciado}
 \end{figure}
 
-Cabe mencionar que todos los cálculos se realizaron se encuentran en el archivo Excel del siguiente enlace: \href{https://github.com/berckanala/Proyecto-1-MCOC/tree/main/Codigos_calculos}{Cálculos}
+
 
 
 \newpage
 
 \section{Resultados}
+Cabe mencionar que todos los cálculos se realizaron se encuentran en el archivo Excel del siguiente enlace: \href{https://github.com/berckanala/Proyecto-1-MCOC/tree/main/Codigos_calculos}{Cálculos}
 \subsection{Redes de flujo}
 A continuación, se muestran los esquemas de las redes de flujo de las 3 ataguías. Los esquemas a escala se pueden encontrar en el siguiente link: \href{https://github.com/berckanala/Proyecto-1-MCOC/tree/main/redes_flujo}{Esquemas ataguías}.
 
@@ -208,7 +209,7 @@ Donde:
     \item $\Delta H$: Diferencia de altura entre dos líneas equipotenciales (m)
 \end{itemize}
 
-\newpage
+
 
 Los caudales de infiltración para cada caso se presentan en la siguiente tabla:
 
@@ -263,123 +264,56 @@ Donde:
 
 A continuación, se presentan las presiones de poros para cada caso:
 
-\begin{table}[h!]
-  \centering
-  \begin{tabular}{ccccc}
-    \hline
-    \textbf{Punto} & \textbf{Altura geodésica (m)} & \textbf{$n_i$} & \textbf{$H_i$} & \textbf{Presión de poros (kPa)} \\
-    \hline
-    A & 22.4 & - & - &0 \\
-    B & 18.6 &  0 & 22.4 &37.278 \\
-    C & 13.2 & 1  & 10.56 &72.20 \\
-    D & 10.2&  2 & 18.72 &83.58 \\
-    E & 10.2 & 3  & 16.88 &65.53 \\
-    F & 10.2 & 4  & 15.04 & 47.48\\
-    G & 10.2 & 5  & 13.02 &29.43 \\
-    H & 13.2 & - & - &0 \\
-    \hline
-  \end{tabular}
-  \caption{Presiones de poros en el caso 1}
-  \label{tab:presion1}
-\end{table}
+
 
 
 \begin{table}[h!]
   \centering
-    \begin{tabular}{cccccc}
+    \begin{tabular}{cccc}
     \hline
-    \textbf{Punto} & \textbf{Altura geodésica (m)} & \textbf{$n_i$} & \textbf{$H_i$} & \textbf{Presión de poros (kPa)} \\
+    \textbf{Punto} & \textbf{Presión (kPa) caso 1} & \textbf{Presión (kPa) caso 2}& \textbf{Presión(kPa) caso 3}\\
     \hline
-    A &  22,4 & - & - & 0  \\ 
-    B &  18,6 & 0 & 22,4 & 37,278  \\ 
-    C &  15,6 & 1 & 21,04 & 53,3664  \\ 
-    D &  12,6 & 2 & 19,68 & 69,4548  \\ 
-    E &  10,2 & 3 & 18,32 & 79,6572  \\ 
-    F &  10,2 & 4 & 16,96 & 66,3156  \\ 
-    G &  12,6 & 5 & 15,6 & 29,43  \\ 
-    H &  15,6 & - & - & 0  \\ \hline
+    A &0     &  0       & 0       \\ 
+    B &37.278&  37,278  & 37,278  \\ 
+    C &72.20 &  53,3664 & 42,3792 \\ 
+    D &83.58 &  69,4548 & 41,5944 \\ 
+    E &65.53 &  79,6572 & 87,8976 \\ 
+    F & 47.48&  66,3156 & 77,3028 \\ 
+    G &29.43 &  29,43   & 9,81     \\ 
+    H &0     &  0       & 0        \\ 
+    \hline
     \end{tabular}
-  \caption{Presiones de poros en el caso 2}
+  \caption{Presiones de poros en todos los casos}
   \label{tab:presion2}
 \end{table}
   
-\begin{table}[h!]
-    \centering
-      \begin{tabular}{cccccc}
-      \hline
-      \textbf{Punto} & \textbf{Altura geodésica (m)} & \textbf{$n_i$} & \textbf{$H_i$} & \textbf{Presión de poros (kPa)} \\ \hline
-      A &  22,4 & - & - & 0 \\ 
-      B &  18,6 & 0 & 22,4 & 37,278 \\ 
-      C & 17 & 1 & 21,32 & 42,3792 \\ 
-      D & 16 & 2 & 20,24 & 41,5944 \\ 
-      E &  10,2 & 3 & 19,16 & 87,8976 \\ 
-      F &  10,2 & 4 & 18,08 & 77,3028 \\ 
-      G & 16 & 5 & 17 & 9,81 \\ 
-      H & 17 & - & - & 0 \\ \hline
-      \end{tabular}
-    \caption{Presiones de poros en el caso 3}
-    \label{tab:presion3}
-\end{table}
-    
-Lo que es importante ver es la diferencia de presion de poros entre los puntos A y G, ya que, dependiendo esta diferencia la inflitración influye en el caudal de inflitración. Como se puede observar, el la tabla \ref{tab:presion1} la presión en G es de 29.43 kPa, mientras que en la tabla \ref{tab:presion2} es de 29.43 kPa y en la tabla \ref{tab:presion3} es de 9.81 kPa. Esto se debe a que en el caso 1 y 2 la altura del agua es la misma y en el caso 3 la tablaestaca está más enterrada, lo que disminuye la presión de poros en el punto G.
 
-\newpage
+    
+Lo que es importante ver es la diferencia de presion de poros entre los puntos A y G, ya que, dependiendo esta diferencia la inflitración influye en el caudal de inflitración. Como se puede observar, el la tabla \ref{tab:presion2} la presión en G en el caso 1 y 2 es de 29.43 kPa, mientras que en el caso 3 es de 9.81 kPa. Esto se debe a que en el caso 1 y 2 la altura del agua es la misma y en el caso 3 la tablaestaca está más enterrada, lo que disminuye la presión de poros en el punto G.
+
+
 
 \subsection{Presiones netas en la ataguía}
 Para calcular las presiones netas en la ataguía, se restan las presiones que están en la misma altura, quedando la siguiente tabla:
 
 \begin{table}[h!]
   \centering
-  \begin{tabular}{cc}
+  \begin{tabular}{cccc}
     \hline
-    \textbf{Caso} & \textbf{Presión neta en la ataguía (kPa)} \\
-    \hline
-    A & 0 \\
-    B & 37.278 \\
-    C & 72.2 \\
-    D-E & 54.15\\
-    F-G & 18.05 \\
-    \hline  
+    \textbf{Caso} & \textbf{Presión (kPa) caso 1} & \textbf{Presión (kPa) caso 2} & \textbf{Presión (kPa) caso 3} \\ \hline
+    A   & 0      & 0      & 0      \\ 
+    B   & 37.278 & 37.27  & 37.278 \\ 
+    C   & 72.2   & 53.36  & 42.38  \\ 
+    D-E & 54.15  & 40.02  & 31.78  \\ 
+    F-G & 18.05  & 13.34  & 10.59  \\ \hline
   \end{tabular}
-  \caption{Presiones netas en la ataguía caso 1}
+  \caption{Presiones netas en la ataguía en los diferentes casos}
   \label{tab:presion_neta1}
 \end{table}
 
-\begin{table}[h!]
-  \centering
-  \begin{tabular}{cc}
-    \hline
-    \textbf{Caso} & \textbf{Presión neta en la ataguía (kPa)} \\
-    \hline
-    A & 0 \\
-    B & 37.278 \\
-    C & 53.36 \\
-    D-E & 40.02\\
-    F-G & 13.34 \\
-    \hline  
-  \end{tabular}
-  \caption{Presiones netas en la ataguía caso 2}
-  \label{tab:presion_neta2}
-\end{table}
 
-\begin{table}[h!]
-  \centering
-  \begin{tabular}{cc}
-    \hline
-    \textbf{Caso} & \textbf{Presión neta en la ataguía (kPa)} \\
-    \hline
-    A & 0 \\
-    B & 37.278 \\
-    C & 42.38 \\
-    D-E & 31.78\\
-    F-G & 10.59 \\
-    \hline  
-  \end{tabular}
-  \caption{Presiones netas en la ataguía caso 3}
-  \label{tab:presion_neta3}
-\end{table}
 
-Al graficar la información de las tablas \ref{tab:presion_neta1}, \ref{tab:presion_neta2} y \ref{tab:presion_neta3}, se obtienen los siguientes gráficos:
+Al graficar la información de las tablas \ref{tab:presion_neta1}, se obtienen los siguientes gráficos:
 
 
 \begin{figure}[h!]
@@ -389,7 +323,6 @@ Al graficar la información de las tablas \ref{tab:presion_neta1}, \ref{tab:pres
   \label{fig:presion_neta1}
 \end{figure}
 
-\newpage
 
 \begin{figure}[h!]
   \centering
@@ -397,6 +330,8 @@ Al graficar la información de las tablas \ref{tab:presion_neta1}, \ref{tab:pres
   \caption{Presión neta en la ataguía caso 12}
   \label{fig:presion_neta2}
 \end{figure}
+
+\newpage
 
 \begin{figure}[h!]
   \centering
