@@ -6,7 +6,7 @@
 \contentsline {subsection}{\numberline {2.2}Caudales de infiltración}{3}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Presión de poros}{4}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Presiones netas en la ataguía}{6}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Máximo gradiente hidráulico}{6}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Falla por licuefacción}{7}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}Factor de seguridad}{8}{subsection.2.7}%
-\contentsline {section}{\numberline {3}Conclusiones}{9}{section.3}%
+\contentsline {subsection}{\numberline {2.5}Máximo gradiente hidráulico}{7}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Falla por licuefacción}{8}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Factor de seguridad}{9}{subsection.2.7}%
+\contentsline {section}{\numberline {3}Conclusiones}{10}{section.3}%
