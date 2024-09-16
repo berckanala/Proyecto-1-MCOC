@@ -1,7 +1,7 @@
 \documentclass{article}
 \usepackage[letterpaper,margin=3cm]{geometry} 
 \usepackage{graphicx} % Required for inserting images
-\usepackage[spanish]{babel}
+\usepackage[spanish, es-tabla]{babel}
 \usepackage[usenames]{color}
 \usepackage{hyperref}
 \hypersetup{colorlinks=true, linkcolor = black, citecolor= black}
@@ -136,7 +136,7 @@
 %----------------------------------------------------------------------------------------
 \part{Entrega 0}
 \section{Introducción}
-Para obras en las que se debe construir a nivel subacuático o con un nivel freático alto, es necesario el uso de ataguías. Estas estructuras temporales permiten construir de forma segura y eficiente en condiciones de humedad. Es importante, antes de instalar las ataguías, tener conocimiento de la profundidad a la que se van a hundir, la presión que se va a contener, tanto del agua como de otros factores, y la cantidad de agua que se va a bombear. De lo contrario, se pondría en riesgo la vida de los trabajadores y la maquinaria. \\
+Para obras en las que se debe construir a nivel subacuático o con un nivel freático alto, es necesario el uso de ataguías. Estas estructuras temporales permiten construir de forma segura y eficiente en condiciones de humedad. Es importante, antes de instalar las ataguías de tablaestacas, tener conocimiento de la profundidad a la cual estas se van a hundir, la presión que se va a contener, tanto del agua como de otros factores, y la cantidad de agua que se va a bombear. De lo contrario, se pondría en riesgo la vida de los trabajadores y la maquinaria. \\
 
 Por ello, en esta entrega se presentarán esquemas de redes de flujo, caudales de infiltración, presiones de poros y netas en ataguía, gradientes hidráulicos máximos, determinar si falla por licuefacción y calcular un factor de seguridad, de tres casos distintos de ataguías de tablaestaca. A continuación, se presenta una figura esquemática de la ataguía de tablaestaca que se analizará en esta entrega:
 
@@ -196,7 +196,7 @@ En cada esquema se utilizaron 3 líneas de flujo y 6 líneas equipotenciales. Es
 \end{table}
 
 \subsection{Caudales de infiltración}
-Para poder calcular los caudales de infiltración, se ocupó la ley de Darcy, la cual se expresa de la siguiente forma:
+Para poder calcular los caudales de infiltración, se ocupó la ley de Darcy en $m^3/dia$, la cual se expresa de la siguiente forma:
 
 \begin{equation}
     q = k \cdot \Delta H \cdot \frac{N_f}{N_d} \cdot 86400
@@ -228,7 +228,7 @@ Los caudales de infiltración para cada caso se presentan en la siguiente tabla:
   \label{tab:caudales}
 \end{table}
 
-Como se puede apreciar en la tabla \ref{tab:caudales}, el caudal de infiltración disminuye a medida que la tablaestaca se entierra más y la diferencia de altura va disminyendo. Sin embrago, estos valores dan cuenta de la importancia de calcular el caudal de infiltración para la correcta utilización de bombas. Ya que, si no se calcula correctamente, se podría inundar la obra con la maquinaria y trabajadores dentro.
+Como se puede apreciar en la tabla \ref{tab:caudales}, el caudal de infiltración disminuye de forma drástica a medida que la tablaestaca se entierra más y la diferencia de altura va disminyendo. 
 
 \subsection{Presión de poros}
 Para calcular la presión de poros, se utilizó el siguiente procedimiento:
@@ -289,7 +289,7 @@ A continuación, se presentan las presiones de poros para cada caso:
   
 
     
-Lo que es importante ver es la diferencia de presion de poros entre los puntos A y G, ya que, dependiendo esta diferencia la inflitración influye en el caudal de inflitración. Como se puede observar, el la tabla \ref{tab:presion2} la presión en G en el caso 1 y 2 es de 29.43 kPa, mientras que en el caso 3 es de 9.81 kPa. Esto se debe a que en el caso 1 y 2 la altura del agua es la misma y en el caso 3 la tablaestaca está más enterrada, lo que disminuye la presión de poros en el punto G.
+Lo que es importante ver es la diferencia de presion de poros entre los puntos B y G, ya que, dependiendo esta diferencia la inflitración influye en el caudal de inflitración. Como se puede observar, el la tabla \ref{tab:presion2} la presión en G en el caso 1 y 2 es de 29.43 kPa, mientras que en el caso 3 es de 9.81 kPa. Esto se debe a que en el caso 1 y 2 la altura del agua es la misma y en el caso 3 la tablaestaca está más enterrada, lo que disminuye la presión de poros en el punto G.
 
 
 
@@ -341,7 +341,7 @@ Al graficar la información de las tablas \ref{tab:presion_neta1}, se obtienen l
 \end{figure}
 
 
-Con las presiones netas se puede ver como la presión neta disminuye de forma significativa a medida que la tablaestaca se entierra más. Esto hace que la tablaestaca sea más estable y no se desplace por la presión del agua. Además, se puede observar que el punto crítico en términos de presión es el punto C es el más crítico, ya que ahí es donde empieza el agua a ejercer presión por dentro en la tablaestaca.
+Con las presiones netas se puede ver como la presión neta disminuye de forma significativa a medida que la tablaestaca se entierra más. Esto hace que la tablaestaca sea más estable y no se desplace por la presión del agua. Además, se puede observar que el punto crítico en términos de presión es el punto C, ya que ahí es donde empieza el agua a ejercer presión por dentro en la tablaestaca.
 
 
 \subsection{Máximo gradiente hidráulico}
@@ -374,6 +374,8 @@ Donde:
   \caption{Máximo gradiente hidráulico}
   \label{tab:gradiente}
 \end{table}
+
+\newpage
 
 Como se puede observar en la tabla \ref{tab:gradiente}, el máximo gradiente hidráulico disminuye a medida que la tablaestaca se entierra más. Esto se debe a que la distancia entre las líneas de flujo aumenta junto con que la diferencia de altura del agua va disminuyendo, lo que hace que el gradiente hidráulico sea menor. 
 

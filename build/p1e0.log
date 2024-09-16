@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.19)  15 SEP 2024 22:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.19)  15 SEP 2024 22:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -851,55 +851,55 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: logo principal.jpg Graphic file (type jpg)
 <use logo principal.jpg>
-Package pdftex.def Info: logo principal.jpg  used on input line 379.
+Package pdftex.def Info: logo principal.jpg  used on input line 378.
 (pdftex.def)             Requested size: 110.8946pt x 44.14194pt.
 [6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.379 
-      
+l.378 \newpage
+              
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.379 
-       <./graficos/grafico_presiones_2.png> <./graficos/grafico_presiones_3.png>]
-Overfull \hbox (19.78871pt too wide) in paragraph at lines 398--407
+l.378 \newpage
+               <./graficos/grafico_presiones_2.png> <./graficos/grafico_presiones_3.png>]
+Overfull \hbox (19.78871pt too wide) in paragraph at lines 400--409
  [][] 
  []
 
 File: logo principal.jpg Graphic file (type jpg)
 <use logo principal.jpg>
-Package pdftex.def Info: logo principal.jpg  used on input line 413.
+Package pdftex.def Info: logo principal.jpg  used on input line 415.
 (pdftex.def)             Requested size: 110.8946pt x 44.14194pt.
 [7
 pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.413 \newpage
+l.415 \newpage
               
 pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.413 \newpage
+l.415 \newpage
               ]
 File: logo principal.jpg Graphic file (type jpg)
 <use logo principal.jpg>
-Package pdftex.def Info: logo principal.jpg  used on input line 445.
+Package pdftex.def Info: logo principal.jpg  used on input line 447.
 (pdftex.def)             Requested size: 110.8946pt x 44.14194pt.
  [8
 pdfTeX warning (ext4): destination with the same identifier (name{table.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.445 \newpage
+l.447 \newpage
               ]
-Underfull \hbox (badness 10000) in paragraph at lines 449--450
+Underfull \hbox (badness 10000) in paragraph at lines 451--452
 
  []
 
 File: logo principal.jpg Graphic file (type jpg)
 <use logo principal.jpg>
-Package pdftex.def Info: logo principal.jpg  used on input line 453.
+Package pdftex.def Info: logo principal.jpg  used on input line 455.
 (pdftex.def)             Requested size: 110.8946pt x 44.14194pt.
 [9] (c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.aux
 LaTeX Info: Redefining \. on input line 12.
@@ -921,7 +921,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  84i,16n,93p,1193b,538s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.pdf (10 pages, 422775 bytes).
+Output written on c:\Users\A\Desktop\Uandes\8vo_semestre\MCOC\Proyecto-1-MCOC\build\p1e0.pdf (10 pages, 422348 bytes).
 PDF statistics:
  200 PDF objects out of 1000 (max. 8388607)
  41 named destinations out of 1000 (max. 500000)
